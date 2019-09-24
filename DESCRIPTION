@@ -59,6 +59,10 @@ Description: Makes it incredibly easy to build interactive web
     outputs and extensive prebuilt widgets make it possible to build
     beautiful, responsive, and powerful applications with minimal effort.
 License: GPL-3 | file LICENSE
+Remotes:
+    rstudio/htmltools@rc-v0.4.0,
+    rstudio/promises@rc-v1.1.0,
+    r-lib/later@rc-v1.0.0
 Depends:
     R (>= 3.0.2),
     methods
