@@ -3,7 +3,7 @@
 We checked 784 reverse dependencies (675 from CRAN + 109 from BioConductor), comparing R CMD check results across CRAN and dev versions of this package.
 
  * We saw 2 new problems
- * We failed to check 3 packages
+ * We failed to check 2 packages
 
 Issues with CRAN packages are summarised below.
 
@@ -22,6 +22,5 @@ Issues with CRAN packages are summarised below.
 
 ### Failed to check
 
-* gastempt (NA)
 * oceanis  (NA)
 * sdcMicro (NA)

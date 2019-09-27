@@ -10,7 +10,7 @@
 |collate  |en_US.UTF-8                  |
 |ctype    |en_US.UTF-8                  |
 |tz       |America/New_York             |
-|date     |2019-09-25                   |
+|date     |2019-09-26                   |
 
 # Dependencies
 
@@ -21,20 +21,13 @@
 
 # Revdeps
 
-## Failed to check (10)
+## Failed to check (3)
 
 |package                          |version |error  |warning |note |
 |:--------------------------------|:-------|:------|:-------|:----|
-|appreci8R                        |?       |       |        |     |
-|bioCancer                        |?       |       |        |     |
-|ChAMP                            |?       |       |        |     |
-|gastempt                         |0.4.4   |1      |        |     |
-|MethylAid                        |?       |       |        |     |
 |[oceanis](failures.md#oceanis)   |1.0.4   |__+1__ |        |-2   |
-|primirTSS                        |?       |       |        |     |
-|RnBeads                          |?       |       |        |     |
+|RnBeads                          |2.2.0   |1      |        |2    |
 |[sdcMicro](failures.md#sdcmicro) |5.4.0   |__+1__ |        |     |
-|VariantFiltering                 |?       |       |        |     |
 
 ## New problems (2)
 

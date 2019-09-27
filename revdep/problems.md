@@ -18,7 +18,7 @@ Run `revdep_details(,"oceanis")` for more info
 *   checking whether package ‘oceanis’ can be installed ... ERROR
     ```
     Installation failed.
-    See ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/checks.noindex/oceanis/new/oceanis.Rcheck/00install.out’ for details.
+    See ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/checks.noindex.nosync/oceanis/new/oceanis.Rcheck/00install.out’ for details.
     ```
 
 ## Newly fixed
@@ -53,7 +53,7 @@ Run `revdep_details(,"oceanis")` for more info
 Error: object ‘knit_print.html’ is not exported by 'namespace:shiny'
 Execution halted
 ERROR: lazy loading failed for package ‘oceanis’
-* removing ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/checks.noindex/oceanis/new/oceanis.Rcheck/oceanis’
+* removing ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/checks.noindex.nosync/oceanis/new/oceanis.Rcheck/oceanis’
 
 ```
 ### CRAN
@@ -134,7 +134,7 @@ Run `revdep_details(,"sdcMicro")` for more info
 *   checking whether package ‘sdcMicro’ can be installed ... ERROR
     ```
     Installation failed.
-    See ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/checks.noindex/sdcMicro/new/sdcMicro.Rcheck/00install.out’ for details.
+    See ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/checks.noindex.nosync/sdcMicro/new/sdcMicro.Rcheck/00install.out’ for details.
     ```
 
 ## Installation
@@ -146,17 +146,17 @@ Run `revdep_details(,"sdcMicro")` for more info
 ** package ‘sdcMicro’ successfully unpacked and MD5 sums checked
 ** using staged installation
 ** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c 0Main.cpp -o 0Main.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c calcSuppInds.cpp -o calcSuppInds.o
-clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c init.c -o init.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c microAggregation.cpp -o microAggregation.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_microaggregation.cpp -o muargus_microaggregation.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_rankswap.cpp -o muargus_rankswap.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c rankSwap.cpp -o rankSwap.o
-clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c sdcMicro.c -o sdcMicro.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c 0Main.cpp -o 0Main.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c RcppExports.cpp -o RcppExports.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c calcSuppInds.cpp -o calcSuppInds.o
+clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c init.c -o init.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c microAggregation.cpp -o microAggregation.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_microaggregation.cpp -o muargus_microaggregation.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_rankswap.cpp -o muargus_rankswap.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c rankSwap.cpp -o rankSwap.o
+clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c sdcMicro.c -o sdcMicro.o
 clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o sdcMicro.so 0Main.o RcppExports.o calcSuppInds.o init.o microAggregation.o muargus_microaggregation.o muargus_rankswap.o rankSwap.o sdcMicro.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
-installing to /Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/checks.noindex/sdcMicro/new/sdcMicro.Rcheck/00LOCK-sdcMicro/00new/sdcMicro/libs
+installing to /Users/barret/Documents/git/rstudio/shiny/shiny/revdep/checks.noindex.nosync/sdcMicro/new/sdcMicro.Rcheck/00LOCK-sdcMicro/00new/sdcMicro/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
@@ -165,7 +165,7 @@ installing to /Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/chec
 Error: object ‘knit_print.html’ is not exported by 'namespace:shiny'
 Execution halted
 ERROR: lazy loading failed for package ‘sdcMicro’
-* removing ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/checks.noindex/sdcMicro/new/sdcMicro.Rcheck/sdcMicro’
+* removing ‘/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/checks.noindex.nosync/sdcMicro/new/sdcMicro.Rcheck/sdcMicro’
 
 ```
 ### CRAN
@@ -175,17 +175,17 @@ ERROR: lazy loading failed for package ‘sdcMicro’
 ** package ‘sdcMicro’ successfully unpacked and MD5 sums checked
 ** using staged installation
 ** libs
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c 0Main.cpp -o 0Main.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c RcppExports.cpp -o RcppExports.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c calcSuppInds.cpp -o calcSuppInds.o
-clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c init.c -o init.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c microAggregation.cpp -o microAggregation.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_microaggregation.cpp -o muargus_microaggregation.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_rankswap.cpp -o muargus_rankswap.o
-clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c rankSwap.cpp -o rankSwap.o
-clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/library.noindex/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c sdcMicro.c -o sdcMicro.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c 0Main.cpp -o 0Main.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c RcppExports.cpp -o RcppExports.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c calcSuppInds.cpp -o calcSuppInds.o
+clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c init.c -o init.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c microAggregation.cpp -o microAggregation.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_microaggregation.cpp -o muargus_microaggregation.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c muargus_rankswap.cpp -o muargus_rankswap.o
+clang++ -std=gnu++11 -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c rankSwap.cpp -o rankSwap.o
+clang -I"/Library/Frameworks/R.framework/Resources/include" -DNDEBUG  -I"/Users/barret/Documents/git/rstudio/shiny/shiny/revdep/library.noindex.nosync/sdcMicro/Rcpp/include" -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include  -fPIC  -Wall -g -O2  -c sdcMicro.c -o sdcMicro.o
 clang++ -std=gnu++11 -dynamiclib -Wl,-headerpad_max_install_names -undefined dynamic_lookup -single_module -multiply_defined suppress -L/Library/Frameworks/R.framework/Resources/lib -L/usr/local/lib -o sdcMicro.so 0Main.o RcppExports.o calcSuppInds.o init.o microAggregation.o muargus_microaggregation.o muargus_rankswap.o rankSwap.o sdcMicro.o -F/Library/Frameworks/R.framework/.. -framework R -Wl,-framework -Wl,CoreFoundation
-installing to /Users/barret/Documents/git/rstudio/shiny/shiny/revdep.nosync/checks.noindex/sdcMicro/old/sdcMicro.Rcheck/00LOCK-sdcMicro/00new/sdcMicro/libs
+installing to /Users/barret/Documents/git/rstudio/shiny/shiny/revdep/checks.noindex.nosync/sdcMicro/old/sdcMicro.Rcheck/00LOCK-sdcMicro/00new/sdcMicro/libs
 ** R
 ** data
 *** moving datasets to lazyload DB
